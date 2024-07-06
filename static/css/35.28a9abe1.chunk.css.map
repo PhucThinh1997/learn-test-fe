@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.less"],"names":[],"mappings":"AAAA,gCAEQ,SAAR","file":"35.28a9abe1.chunk.css","sourcesContent":["#contract-page {\n    .is-warning-text {\n        color: red;\n    }\n}\n@border-radius-base: 3px;"]}

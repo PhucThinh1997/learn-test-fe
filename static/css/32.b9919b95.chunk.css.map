@@ -1,0 +1,1 @@
+{"version":3,"sources":["documentView.less"],"names":[],"mappings":"AAAA,cACC,4BACD,CACA,gBACC,wBACD","file":"32.b9919b95.chunk.css","sourcesContent":["#pdf-controls {\n\tbackground: #1274AC !important;\n}\n#pdf-zoom-reset {\n\tdisplay: hidden !important;\n}\n@border-radius-base: 3px;"]}

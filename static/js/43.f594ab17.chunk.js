@@ -1,0 +1,2 @@
+(this["webpackJsonpcrm.dqc"]=this["webpackJsonpcrm.dqc"]||[]).push([[43],{1018:function(e,c,n){"use strict";n.r(c);var t=n(0),r=n.n(t),s=Object(t.memo)((function(e){return r.a.createElement("div",null,"seminar")}));c.default=s}}]);
+//# sourceMappingURL=43.f594ab17.chunk.js.map
