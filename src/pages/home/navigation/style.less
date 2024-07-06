@@ -1,0 +1,63 @@
+@import '~antd/lib/style/themes/default.less';
+
+.sider {
+  height: 100vh;
+
+  .sider__navigation {
+    overflow: auto;
+    height: calc(100% - 5px);
+    overflow-x: hidden;
+
+    &.ant-menu-vertical .ant-menu-item,
+    &.ant-menu-vertical-left .ant-menu-item,
+    &.ant-menu-vertical-right .ant-menu-item,
+    &.ant-menu-inline .ant-menu-item,
+    &.ant-menu-vertical .ant-menu-submenu-title,
+    &.ant-menu-vertical-left .ant-menu-submenu-title,
+    &.ant-menu-vertical-right .ant-menu-submenu-title,
+    &.ant-menu-inline .ant-menu-submenu-title {
+      margin-top: 0px;
+    }
+  }
+
+  .sider__open-items {
+    overflow: auto;
+    height: 260px;
+  }
+
+  .sider__logo {
+    padding: 8px 16px;
+
+    .sider__image {
+      max-width: 240px;
+      max-height: 36px;
+      float: left;
+      margin: 0px 16px 0px 6px;
+    }
+
+    .sider__name {
+      line-height: 34px;
+      color: @text-color-dark;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.logo {
+  position: relative;
+  overflow: hidden;
+  line-height: 46px;
+  background: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-bottom: 5px solid #f0f2f5;
+  // padding: 16px;
+}
+
+.logo img {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}

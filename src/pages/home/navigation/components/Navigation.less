@@ -1,0 +1,111 @@
+@import '~antd/lib/style/themes/default.less';
+@white: #fff;
+@red: #a50f32;
+@red2: #f13535;
+
+.menu-navigation {
+  height: calc(100% - 250px);
+  padding: 0px 12px;
+
+  .ant-menu-item-selected.menu-navigation__item {
+    background-color: #007397 !important;
+    color: #fff;
+  }
+
+  .ant-menu-item {
+    border-radius: 12px;
+  }
+
+  > .ant-menu-item {
+    padding-left: 12px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .ant-menu-item-selected {
+    background-color: #007397!important;
+    color: #fff;
+  }
+  .ant-menu-submenu-selected {
+    color: @red2;
+  }
+
+  .ant-menu-item-selected a,
+  .ant-menu-item-selected a:hover {
+    color: white;
+  }
+
+  .ant-menu-inline .ant-menu-selected::after,
+  .ant-menu-inline .ant-menu-item-selected::after {
+    border-right: 0px;
+  }
+
+  a {
+    color: rgb(0 0 0);
+    &:hover {
+      color: @red2;
+    }
+  }
+  ant-menu-item-selected
+  .navlink-menu__text {
+    &:hover {
+      color: #007397;
+    }
+  }
+
+  .ant-menu-item-selected .navlink-menu__text {
+    &:hover {
+      color: white;
+    }
+
+    a {
+      &:hover {
+        color: white !important;
+      }
+    }
+  }
+
+  .ant-menu-item::after {
+    border: none;
+  }
+
+  .ant-menu-submenu .ant-menu-submenu-inline {
+    &:hover {
+      * {
+        color: @red2 !important;
+      }
+    }
+  }
+  .ant-menu-submenu-active {
+    color: @red2 !important;
+
+    .ant-menu-submenu-arrow {
+      color: inherit;
+    }
+  }
+  .ant-menu-submenu:hover {
+    .ant-menu-submenu-arrow {
+      color: inherit;
+    }
+  }
+  .ant-menu-submenu-title {
+    padding-left: 12px !important;
+    &:hover {
+      color: @red;
+    }
+  }
+
+  .ant-menu-submenu {
+    > .ant-menu-title-content {
+      font-weight: 500;
+    }
+  }
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}

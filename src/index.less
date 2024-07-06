@@ -1,0 +1,84 @@
+@import '~antd/lib/style/themes/default.less';
+@import '~antd/dist/antd.less'; // Import Ant Design styles by less entry
+@import './styles/vars.less';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+textarea {
+  border-radius: 3px;
+}
+
+#root {
+  min-height: 100vh;
+  height: 100%;
+}
+
+.ant-picker {
+  width: 100%;
+}
+
+.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: #fff;
+  color: #000;
+}
+
+.ant-input[disabled] {
+  color: rgba(0, 0, 0) !important;
+  background-color: #fff !important;
+}
+
+.ant-input-number-input,
+.ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector,
+.ant-picker.ant-picker-disabled,
+.ant-picker-input > input[disabled] {
+  color: rgba(0, 0, 0) !important;
+  background-color: #fff !important;
+}
+
+.ant-spin-container {
+  height: 100%;
+}
+
+.ant-form-item {
+  margin-bottom: 15px !important;
+}
+
+.ant-modal-header {
+  padding: 10px 24px !important;
+}
+
+.ant-modal-body {
+  padding: 12px 24px !important;
+}
+
+.ant-form-item-label {
+  font-style: italic;
+}
+
+.ant-modal-close-x {
+  position: relative;
+  bottom: 5px;
+}
+
+.ant-card-head {
+  border-bottom: none !important;
+}
+
+.main__application {
+  // height: calc(100vh - 208px) !important;
+  padding: 5px !important;
+  min-height: calc(100vh - 208px) !important ;
+}
