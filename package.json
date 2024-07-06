@@ -1,4 +1,5 @@
 {
+  "homepage": "https://phucthinh1997.github.io/learn-test-fe/",
   "name": "crm.dqc",
   "version": "0.1.0",
   "private": true,
@@ -72,6 +73,8 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start:node18": "react-app-rewired --openssl-legacy-provider start",
     "build:staging": "env-cmd -f .env.staging react-app-rewired build",
     "build:rep": "env-cmd -f .env.replication react-app-rewired build",
