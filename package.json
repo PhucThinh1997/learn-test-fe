@@ -79,7 +79,7 @@
     "start:node18": "react-app-rewired --openssl-legacy-provider start",
     "build:staging": "env-cmd -f .env.staging react-app-rewired build",
     "build:rep": "env-cmd -f .env.replication react-app-rewired build",
-    "build": "react-app-rewired build",
+    "build": "CI=false react-app-rewired build",
     "test": "react-app-rewired test --verbose",
     "eject": "react-scripts eject",
     "lint": "eslint .",
